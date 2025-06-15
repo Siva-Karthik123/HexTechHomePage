@@ -1,0 +1,59 @@
+.notebook-intro-section {
+  background-color: #0b0b0f;
+  padding: 60px 40px;
+  color: #ffffff;
+}
+
+.notebook-intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .notebook-intro-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.notebook-intro-left {
+  flex: 3;
+}
+
+.notebook-tag {
+  font-size: 14px;
+  color: #5be49b;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.intro-heading {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.notebook-intro-right {
+  flex: 5;
+  max-width: 600px;
+}
+
+.intro-highlight {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f4c6c6;
+}
+
+.intro-highlight strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.intro-muted {
+  color: #f4c6c6;
+  font-weight: 400;
+}
